@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Base*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+/*Header*/
+
+.header {
+    padding: 80px 0;
+    border-bottom-right-radius: 100px;
+
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.header .container {
+    position: relative;
+    z-index: 1;
+}
+
+.header-video  {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    border-bottom-right-radius: 100px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    opacity: 0.5;
+}
+
+.header-img {
+    border-radius: 80px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.header-title {
+    margin-bottom: 10px;
+
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-btns {
+    display: flex;
+    column-gap: 20px;
+}
+
+.header-text {
+    margin-bottom: 20px;
+
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.btn {
+    height: 48px;
+    padding: 15px 25px;
+
+    color: #fff;
+    line-height: 1;
+
+    background-color: #000;
+    border-radius: 9px;
+    transition: 0.2s linear all;
+}
+
+.btn:hover {
+    background-color: #1782CF;
+}
+
+.btn-outline {
+    height: 48px;
+    padding: 15px 25px;
+
+    color: #fff;
+    line-height: 1;
+
+    border: 1px solid #3B3B3B;
+    border-radius: 9px;
+    transition: 0.2s linear all;
+}
+
+.btn-outline:hover {
+    border-color: #1782CF;
+}
+
+
+/*Portfolio*/
+
+.portfolio {
+    padding: 80px 0;
+}
+
+.portfolio-title {
+    margin-bottom: 65px;
+
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-content: center;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-img {
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+
+    transition: 0.2s linear opacity;
+}
+
+.project-img:hover {
+    opacity: 0.8;
+}
+
+.project-title {
+    font-size: 22px;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/*Contacts*/
+
+.contacts {
+    padding: 80px 0;
+
+    color: #fff;
+
+    border-top-left-radius: 100px;
+    background-color: #363636;
+}
+
+.contacts-title {
+    margin-bottom: 65px;
+
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.messengers {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.messenger {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 15px;
+    align-items: center;
+    padding: 46px 20px;
+
+    font-size: 20px;
+    color: #fff;
+
+    border-radius: 20px;
+    border: 1px solid #494848;
+
+    transition: 0.2s linear background-color;
+}
+
+.messenger:hover {
+    background-color: #1E1E1E;
+}
+
+
+/*Footer*/
+
+.footer {
+    padding: 30px 0;
+
+    color: #5D5D5D;
+
+    background-color: #1E1E1E;
+}
+
+.footer-inner {
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    text-align: center;
+}
+
+
+/*Inner Page*/
+
+.inner-page {
+    padding: 80px 0 40px;
+}
+
+.inner-page_details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-bottom: 40px;
+
+    text-align: center;
+    align-items: center;
+}
+
+.inner-page-title {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.inner-page-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    max-width: 570px;
+
+    color: #555;
+    line-height: 1.5;
+}
+
+.inner-page-link {
+    color: #000;
+}
+
+.inner-page-link a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.inner-page-img {
+    display: block;
+    margin: 0 auto 40px;;
+}
+
+.inner-page-backlink {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 770px;
+
+    color: #000;
+
+    background-color: #F1F1F1;
+    text-align: center;
+
+    transition: background-color 0.2s linear;
+}
+
+.inner-page-backlink:hover {
+    background-color: #d7d7d7;
+}
